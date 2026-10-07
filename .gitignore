@@ -1,0 +1,79 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Java / Kotlin
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+# Generated files
+bin/
+gen/
+out/
+/release/
+
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Local configuration (SDK path, etc.)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+**/.cxx/
+obj/
+
+# Native profiling / captures
+captures/
+*.hprof
+
+# Signing
+*.jks
+*.keystore
+!debug.keystore
+
+# Log / temp
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Lint / navigation editor
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/publichtml/
+.navigation/
+
+# Freeline / fastlane / misc tooling
+freeline.py
+freeline/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
